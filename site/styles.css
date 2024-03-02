@@ -46,8 +46,8 @@ body {
 
 .btn {
   position: absolute;
-  top: 240px;
-  left: 490px;
+  top: 125px;
+  left: 100px;
   height: 100px;
   width: 100px;
   border-radius: 100px;
@@ -62,10 +62,19 @@ body {
   outline-style: none;
 }
 
-.btn:hover {
-  background-color: #93939324;
-}
-
 p {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.elipse {
+  position: absolute;
+  top: 80px;
+  left: 141px;
+  height: 40px;
+  width: 15px;
+  border-radius: 20px;
+  border: none;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+  transition: background-color 0.5s ease;
 }
