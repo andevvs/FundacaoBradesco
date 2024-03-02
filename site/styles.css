@@ -16,6 +16,7 @@ li {
   --fontColor: var(--black);
   --btnBg: var(--black);
   --btnFontColor: var(--white);
+  transition: background-color 0.8s ease;
 }
 
 :root {
@@ -37,6 +38,7 @@ body {
   --fontcolor: var(--white);
   --btnBg: var(--white);
   --btnFontColor: var(--black);
+  transition: background-color 0.8s ease;
 }
 
 .btn {
@@ -46,7 +48,7 @@ body {
 
 .btn {
   position: absolute;
-  top: 125px;
+  top: 205px;
   left: 100px;
   height: 100px;
   width: 100px;
@@ -68,7 +70,7 @@ p {
 
 .elipse {
   position: absolute;
-  top: 80px;
+  top: 150px;
   left: 141px;
   height: 40px;
   width: 15px;
