@@ -1,70 +1,71 @@
 body {
-    font-family: monospace;
+  font-family: monospace;
 }
 ul {
-    font-family: Helvetica;
+  font-family: Helvetica;
 }
 li {
-    list-style: circle;
+  list-style: circle;
 }
 .list {
-    list-style: square;
+  list-style: square;
 }
 
 .light-theme {
-    --bg: var(--white);
-    --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
+  --bg: var(--white);
+  --fontColor: var(--black);
+  --btnBg: var(--black);
+  --btnFontColor: var(--white);
 }
 
-:root{
-    --white: #ffffff;
-    --black: #000000;
-
+:root {
+  --white: #ffffff;
+  --black: #000000;
 }
 
-*{
-    color: var(--fontcolor);
-    font-family: var(--fontColor);
+* {
+  color: var(--fontcolor);
+  font-family: var(--fontColor);
 }
 
-body{
-    background-color: var(--bg);
+body {
+  background-color: var(--bg);
 }
 
-.dark-theme{
-   --bg: var(--black);
-   --fontcolor: var(--white);
-   --btnBg: var(--white);
-   --btnFontColor: var(--black);
+.dark-theme {
+  --bg: var(--black);
+  --fontcolor: var(--white);
+  --btnBg: var(--white);
+  --btnFontColor: var(--black);
 }
 
-.btn{
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
+.btn {
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
 }
 
-.btn{
-    position: absolute;
-    top: 240px;
-    left: 490px;
-    height: 100px;
-    width: 100px;
-    border-radius: 100px;
-    border: none;
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
-    cursor: pointer;
-    transition: background-color 0.5s ease;
+.btn {
+  position: absolute;
+  top: 240px;
+  left: 490px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  border: none;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+  cursor: pointer;
+  transition: background-color 0.5s ease;
 }
 
-.btn:focus {outline-style: none; }
+.btn:focus {
+  outline-style: none;
+}
 
 .btn:hover {
-    background-color: #93939324;
-  }
+  background-color: #93939324;
+}
 
-  p{
-    font-family: Arial, Helvetica, sans-serif;
-  }
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
