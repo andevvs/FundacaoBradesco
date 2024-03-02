@@ -47,14 +47,24 @@ body{
 
 .btn{
     position: absolute;
-    top: 20px;
-    left: 250px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
+    top: 240px;
+    left: 490px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
     border: none;
     color: var(--btnFontColor);
     background-color: var(--btnBg);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
 }
 
 .btn:focus {outline-style: none; }
+
+.btn:hover {
+    background-color: #93939324;
+  }
+
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+  }
