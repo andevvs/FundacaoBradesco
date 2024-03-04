@@ -1,14 +1,8 @@
 body {
-  font-family: monospace;
+  font-family: "cascadia code";
 }
 ul {
-  font-family: Helvetica;
-}
-li {
-  list-style: circle;
-}
-.list {
-  list-style: square;
+  font-family: "cascadia code";
 }
 
 .light-theme {
@@ -65,7 +59,7 @@ body {
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "cascadia code";
 }
 
 .elipse {
